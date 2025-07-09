@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "The Future of AI",
+      "content": "Artificial Intelligence is transforming industries...\n\nNew advancements are emerging daily...",
+      "image": "https://example.com/ai-image.jpg",
+      "category": "Technology",
+      "tags": ["AI", "Innovation", "Tech"],
+      "author": "John Doe",
+      "published_date": "2025-07-01",
+      "reading_time": "5 min"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Trends",
+      "content": "Modern web development is evolving rapidly...\n\nFrameworks like React are leading the way...",
+      "image": "https://example.com/webdev-image.jpg",
+      "category": "Web Development",
+      "tags": ["React", "Web", "Trends"],
+      "author": "Jane Smith",
+      "published_date": "2025-06-30",
+      "reading_time": "4 min"
+    }
+  ]
