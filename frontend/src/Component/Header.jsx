@@ -38,18 +38,18 @@ const Header = () => {
                         </li>
                         <li>
                             <Link
-                                to="/about"
-                                className="text-gray-700 hover:text-emerald-600 transition-colors duration-300 font-medium"
-                            >
-                                About
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
                                 to="/addblog"
                                 className="text-gray-700 hover:text-emerald-600 transition-colors duration-300 font-medium"
                             >
                                 Add Blog
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="/about"
+                                className="text-gray-700 hover:text-emerald-600 transition-colors duration-300 font-medium"
+                            >
+                                About
                             </Link>
                         </li>
                         <li>

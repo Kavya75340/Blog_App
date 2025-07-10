@@ -1,34 +1,27 @@
-✅ README.md for Full Stack Blog App
-markdown
-Copy
-Edit
-
 # 📝 Blog App
 
 A Full Stack Web Application for writing and managing blogs — built using **React**, **Spring Boot**, and **MySQL**.
 
-## 🌐 Live Demo
-
-> [🔗 Live Link (if deployed)](https://yourdomain.com)
-
 ---
 
-## 📸 Screenshots
+## 🎞️ Demo GIFs
 
-| Home Page                     | Add Blog                         | Explore Blogs                       |
-| ----------------------------- | -------------------------------- | ----------------------------------- |
-| ![Home](screenshots/home.png) | ![Add](screenshots/add-blog.png) | ![Explore](screenshots/explore.png) |
+| Feature                    | Preview                      |
+| -------------------------- | ---------------------------- |
+| Home Page                  | ![](gifs/home.gif)           |
+| Explore + Blog Detail View | ![](gifs/explore-detail.gif) |
+| Add Blog                   | ![](gifs/add-blog.gif)       |
 
 ---
 
 ## 🚀 Features
 
 -   🏠 **Home** – Landing page with welcome message
+-   🔍 **Blogs** – View all submitted blogs
+    -   🔎 **Click on a blog** to view full details
 -   ✍️ **Add Blog** – Create a new blog with title, content, etc.
--   🔍 **Explore Blogs** – View all submitted blogs
 -   ℹ️ **About** – App information and project details
 -   📞 **Contact** – Developer or support contact form
--   🗑️ **Delete Blog** – (Optional) Remove any blog post directly from explore page
 
 ---
 
@@ -39,7 +32,7 @@ A Full Stack Web Application for writing and managing blogs — built using **Re
 -   React JS (with hooks and functional components)
 -   Axios for API interaction
 -   React Router DOM
--   Tailwind CSS or Bootstrap for styling
+-   Tailwind CSS
 
 ### ⚙️ Backend – Spring Boot
 
@@ -50,8 +43,9 @@ A Full Stack Web Application for writing and managing blogs — built using **Re
 
 ### 🗄️ Database – MySQL
 
--   Database: `blogdb`
--   Table: `blog` with fields: `id`, `title`, `content`, `createdAt`
+-   Blogs Entity
+-   JPA Repository
+-   Database connectivity via `application.properties`
 
 ---
 
@@ -68,7 +62,7 @@ cd Blog_App
 
 ### 2. Backend Setup (Spring Boot)
 
--   Open the `backend/` folder in your IDE (like IntelliJ or Eclipse)
+-   Open the `backend/` folder in your IDE (like VS Code or Eclipse)
 -   Configure `application.properties` with your MySQL DB details:
 
 ```properties
@@ -107,7 +101,7 @@ course-app/
 ├── frontend/       # React frontend
 │   └── src/
 ├── README.md
-└── screenshots/
+└── gifs/
 ```
 
 ---
@@ -115,7 +109,8 @@ course-app/
 ## 📬 Contact
 
 **Created By:** Kavya Varshney
-📧 Email: \[[KvVarshney\kvvarshney75@gmail.com](mailto:kvvarshney75@gmail.com)]
-🔗 LinkedIn: [linkedin.com/in/kavya-varshney](https://www.linkedin.com/in/kavya-varshney-658803327/)
+
+    -📧 Email: \[[KvVarshney\kvvarshney75@gmail.com](mailto:kvvarshney75@gmail.com)]
+    -🔗 LinkedIn: [linkedin.com/in/kavya-varshney](https://www.linkedin.com/in/kavya-varshney-658803327/)
 
 ---
